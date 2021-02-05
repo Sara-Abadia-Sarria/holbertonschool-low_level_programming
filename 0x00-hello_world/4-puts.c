@@ -3,13 +3,15 @@
 /**
  * main - Entry point
  *
- * Description: puts "Programming is like building a multilingual puzzle"
+ * Description: puts "Programming is like building a multilingual puzzle
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 char texto[] = "Programming is like building a multilingual puzzle";
+puts("\"");
 puts(texto);
+puts(\n);
 return (0);
 }
