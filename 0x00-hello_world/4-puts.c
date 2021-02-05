@@ -9,9 +9,6 @@
 
 int main(void)
 {
-char texto[] = "Programming is like building a multilingual puzzle";
-puts("\"");
-puts(texto);
-puts(\n);
+puts("\"Programming is like building a multilingual puzzle\n");
 return (0);
 }
