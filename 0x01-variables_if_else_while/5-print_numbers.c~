@@ -1,0 +1,23 @@
+#include <stdio.h>
+/* more headers goes there */
+
+/**
+ * main - Entry point
+ *
+ * Description: prints the alphabet in lowercase
+ * Return: Always 0 (Success)
+ */
+
+/* betty style doc for function main goes there */
+int main(void)
+{
+int i;
+char data;
+for (i = 0; i <= 9; i++)
+{
+data = (char) i;
+putchar(data);
+}
+putchar('\n');
+return (0);
+}
