@@ -19,11 +19,14 @@ for (j = '0'; j <= '9'; j++)
 {
 putchar(i);
 putchar(j);
-putchar(',');
-putchar(' ');
 if (i == '9' && j == '9')
 {
 break;
+}
+else
+{
+putchar(',');
+putchar(' ');
 }
 }
 }
