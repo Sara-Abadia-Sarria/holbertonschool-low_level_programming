@@ -14,11 +14,13 @@
 int main(void)
 {
 int i;
-char hexa;
-for (i = 0; i <= 15; i++)
+for (i = '0'; i <= '9'; i++)
 {
-itoa(i, hexa, 16);
-putchar(hexa);
+putchar(i);
+}
+for (i = 'a'; i <= 'f'; i++)
+{
+putchar(i);
 }
 putchar('\n');
 return (0);
